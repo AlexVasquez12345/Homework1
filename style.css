@@ -1,0 +1,32 @@
+/*style.css file
+Main setup of the entire page. This includes a creme background,
+a charcol text color, Arial font, and a 2em for font fize.*/
+body {
+	background-color:#f4f4f4;
+	color:#555555;
+	font:normal 16px Arial, Helvetica, sans-serif;
+	line-height:2em;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+/*Setup of id element for Viper image which will allow the entire
+row of Valorant agents to appear spaced out*/
+#spaced {
+	display: inline-block;
+	margin-left: 93px;
+	margin-right: 93px;
+}
+/*Allows enter webpage's text to appear more compact*/
+.center{
+	width:65%;
+}
+/*Sets a line towards the top of the webpage for asthetics*/
+#divider {
+	border-top: 3px solid #555555;
+}

@@ -1,0 +1,138 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Alexander Vasquez, UMass Lowell Computer Science, Alexander_Vasquez@student.uml.edu
+Copyright (c) 2021 by Alexander. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AV on September 14, 2022.
+-->
+<!-- 
+Basic Setup of HTML Page 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flambo History</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- 
+    Sets up the introduction of the fake esports player: "Flambo". It also adds a line
+    divider between the heading and the first paragraph. It also sets the pages width to 65%
+    Important, do not shift the center class up as this will make the divider not stretch out
+    as long and in turn lose the proper asthetic it currently has.
+    -->
+    <h1>Flambo</h1>
+    <div id = "divider"></div>
+    <div class = "center">
+    <p>Alexander "Flambo" Vasquez is a fake esprots player. Flambo is known for his fake time spent
+      playing Apex Legends for Team NRG. He currently plays Valorant unofficially for Team
+      100 Thieves as their In-Game-Leader.
+    </p>
+    <!-- 
+    Imports Images and places them above the respective Apex Legend Character Data.
+    -->
+    <img src="images/Wraith.jpg" alt="Wraith"> 
+    <img src="images/Wattson.jpg" alt="Wattson"> 
+    <img src="images/Bloodhound.jpg" alt="Bloodhound"> 
+    <table>
+      <tr>
+        <th>Legend</th>
+        <th>Kills</th>
+        <th>Damage Dealt</th>
+        <th>Revives Given</th>
+        <th>Respawns Given</th>
+      </tr>
+      <tr>
+        <td>Wraith</td>
+        <td>2,558</td>
+        <td>583,723</td>
+        <td>1,282</td>
+        <td>691</td>
+      </tr>
+      <tr>
+        <td>Wattson</td>
+        <td>1,360</td>
+        <td>304,000</td>
+        <td>2,741</td>
+        <td>1,311</td>
+      </tr>
+      <tr>
+        <td>Bloodhound</td>
+        <td>1,844</td>
+        <td>476,600</td>
+        <td>1,569</td>
+        <td>933</td>
+      </tr>
+    </table>
+    <!--
+    Similar thought process as above, however now we are display Valorant Character Data.
+    -->
+    <img src="images/Phoenix.jpg" alt="Phoenix"> 
+    <div id = "spaced"><img src="images/Viper.jpg" alt="Viper"></div> 
+    <img src="images/Sage.jpg" alt="Sage"> 
+    <table>
+      <tr>
+        <th>Agent</th>
+        <th>Kill Death Ratio</th>
+        <th>Average Combat Score</th>
+        <th>Headshot %</th>
+        <th>Win %</th>
+      </tr>
+      <tr>
+        <td>Phoenix</td>
+        <td>1.32</td>
+        <td>312.2</td>
+        <td>26.2%</td>
+        <td>56.2%</td>
+      </tr>
+      <tr>
+        <td>Viper</td>
+        <td>1.04</td>
+        <td>221.4</td>
+        <td>24.2%</td>
+        <td>51.4%</td>
+      </tr>
+      <tr>
+        <td>Sage</td>
+        <td>1.12</td>
+        <td>224.8</td>
+        <td>25.7%</td>
+        <td>54.3%</td>
+      </tr>
+    </table>
+    <!--
+    Displays Flambo's entire Career History
+    -->
+    <h2>Career Overview</h2>
+    <p>Flambo's esports career began in 2019 on the fps battle royale game Apex Legends. During this year, he would sign a contract with the esports
+      organization NRG as their In-Game-Leader. However, Flambo would struggle with finding a balance between playing such an aggresive character such
+      as Wraith, and also leading his team to victory. Towards the end of 2019, he would switch to Wattson and Bloodhound where he found more success.
+      With these characters, Flambo would go on to win 2 North American tourneys. Flambo would then make the decision during the height of the pandemic
+      in 2020 to switch to Valorant. He would be signed by the esports organization 100 Thieves as their In-Game-Leader. Flambo currently plays a myriad
+      of agents such as Phoenix, Viper, and Sage. He has won three tourneys as of 2022.
+    </p>
+    <!--
+    Finally, all of the fake sources that coorelate to my actual gaming statistics that shows
+    that this website is a joke. There is also the CSS checker that verifies my webpage is valid.
+    -->
+    <h2>Fake Sources</h2>
+    <a href="https://apex.tracker.gg/apex/profile/psn/LuckyAssassinGT/overview" target="_blank">
+      Fake Apex Data
+    </a> 
+    <br>
+    <a href="https://tracker.gg/valorant/profile/riot/Flambo%235465/agents?playlist=unrated" target="_blank">
+      Fake Valorant Data
+    </a> 
+    <br>
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!" />
+      </a>
+    </p>      
+    </div>
+  </body>
+</html>
